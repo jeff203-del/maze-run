@@ -1,0 +1,231 @@
+Africa's Talking Open and WIT Hackathon: Build Anything - Nairobi Kenya
+Oct 29, 8:00 AM – 6:00 PM (GMT+3)
+
+Africa’s Talking Open Community | East Africa
+
+The Africa's Talking Open Hackathon invites developers, designers, and entrepreneurs to build innovative solutions using AT APIs. With no theme or limits, participants can tackle real-world challenges in any sector. It's a chance to innovate, network, and win prizes, transforming ideas into scalable products.
+
+308 RSVPs
+
+AgriTech
+Airtime API
+Chat API
+Energy
+Entertainment
+Fin Tech
+Gaming
+Hackathon
+Health Tech
+Insight API: SIM SWAP
+Marketplace
+SMS API
+USSD API
+Voice API
+Your RSVP
+
+Discussions
+Discussion button
+
+No discussions are currently posted
+
+Start a discussion
+
+About this event
+The Africa's Talking Open Hackathon is a no-theme, no-limits build event for anyone with an idea worth shipping. There's no assigned industry and no fixed problem statement. If you've been sitting on a side project, have spotted a gap in your community, your workplace, or your own daily life, or simply want to see what you can build in a day with production-grade communication APIs, this is your stage.
+
+Across Africa, the best solutions often come from builders who know a problem first-hand. This hackathon invites developers, designers, data scientists, and entrepreneurs to bring their own ideas and turn them into practical, scalable products. With access to Africa's Talking APIs, mentorship, and a community of innovators, participants are free to build whatever they believe will create real impact and can stand on its own in the market.
+
+
+
+
+
+Ideas, Not Limits
+
+You can build in any sector. If you need a spark, here are some directions previous builders have explored:
+
+Fintech & Payments: Savings groups (chamas), bill reminders, micro-lending, or merchant tools with M-Pesa Daraja integration and SMS receipts.
+
+Health: Appointment reminders, medication adherence alerts, community health worker reporting via USSD, or health tips via SMS.
+
+Agriculture: Market price alerts, weather notifications, input ordering for farmers, or cooperative management tools.
+
+Education: Exam revision via SMS/USSD, school-parent communication, fee reminders, or Voice-based learning for low-literacy learners.
+
+Small Business & Retail: Inventory alerts, customer loyalty programs, order tracking, or WhatsApp/SMS storefronts.
+
+Government & Civic Tech: Service queue notifications, public feedback channels, emergency alerts, or citizen reporting tools.
+
+Clean Energy & Utilities: Pay-as-you-go energy, meter readings via SMS, token purchase via USSD, or outage notifications.
+
+Gaming & Entertainment: SMS/USSD trivia, Airtime-rewarded games, Voice-based interactive stories, or fan engagement platforms.
+
+AI-Powered Tools: Chatbots, Voice assistants, local-language translation, or intelligent customer support built on top of AT channels.
+
+Something completely different? Even better. Surprise us.
+
+
+
+Objectives
+
+Unlock Open Innovation: Give builders the freedom to solve the problems they care about most, without being boxed into a single theme.
+
+Foster Local Innovation: Empower African builders to create solutions grounded in the realities of their communities and markets.
+
+Promote Inclusive Technology: Encourage solutions that work for everyone, including users on feature phones, in low-connectivity areas, or with low literacy.
+
+Encourage Responsible Development: Prioritize data privacy, user consent, security, and ethical AI in everything built.
+
+Enable Impact at Scale: Ensure solutions can grow from a hackathon demo into products serving thousands or millions of users.
+
+
+
+
+
+Target Attendees
+
+Developers & Engineers
+
+AI/ML & Data Scientists
+
+Engineering Students & Learners
+
+Startup Founders & Entrepreneurs
+
+Social Entrepreneurs & NGOs
+
+UX/UI Designers
+
+Product Managers
+
+Domain Experts from any industry
+
+
+
+Why Participate
+
+Access to Tools & APIs
+
+Mentorship & Workshops
+
+Collaborative Innovation
+
+Cash Prizes & Recognition
+
+Real-World Impact
+
+Talent & Gig Opportunities
+
+How Projects Are Judged
+
+Since every team is building something different, all projects are scored on the same criteria:
+
+Problem & Impact: Is the problem real, clearly defined, and worth solving?
+Use of Africa's Talking APIs: How meaningfully does the solution use SMS, USSD, Voice, Chat, Airtime, Insights, Premium SMS, or Mobile Data?
+Technical Execution: Does it work? Is it well built, deployed, and demoable?
+Market Readiness: Could a business or community adopt and pay for it? Is it published on the Marketplace?
+Innovation: Does it bring a fresh idea or a fresh approach to an existing problem?
+
+
+
+Prizes
+The winning solution will receive cash prizes as follows:
+
+Winner - $100 (Join Marketplace Program)
+
+1st Runners Up - $50
+
+2nd Runners Up - $25
+
+Africa's Talking powers communications solutions across Africa with simplified access to telco infrastructure. Developers use our powerful SMS, USSD, Voice, Chat, Airtime and Mobile Data to bring their ideas to life, as they build and sustain scalable businesses.
+
+Note: Carry a laptop
+
+Take It Further: Make It Marketplace-Ready
+Learn more about the Marketplace and connect with other builders in the community forum: https://community.africastalking.com/forum/marketplace-18239/
+
+Winning the hackathon is just the start. Turn your build into a packaged, reusable product that any business on the Africa’s Talking Marketplace can subscribe to and deploy as their own running instance.
+
+What Makes a Solution Marketplace-Ready
+A marketplace-ready solution isn’t just a working app. It’s a packaged, reusable, deployable product. Think of it less as “my project” and more as “a plugin other businesses can pay to deploy.” To qualify, your submission should meet the following:
+
+Containerized and pushed to the registry. Built into a Docker image and pushed to the AT-Container registry (manual push or a CI/CD pipeline via GitHub, GitLab, or Bitbucket).
+
+Built on at least one AT product. Integrate with one or more of USSD, Voice, Airtime, Insights, Bulk SMS, Premium SMS, or Mobile Data.
+
+Reusable by many. Unlike a private callback, a marketplace plugin is publicly listed and deployable by any customer, and each gets their own isolated instance with its own URL (e.g. https://your-app.africastalking.marketplace.dev).
+
+Clearly presented. It needs a name, slug, short and long descriptions, and a logo (required; a missing logo blocks submission).
+
+Configurable. Expose any environment variables customers should set at deploy time, and declare your database needs (default: none).
+
+Monetizable. At least one pricing plan is required, each specifying currency, amount, billing frequency, and a description.
+
+Categorized and compliant. Tag it with at least one AT product and industry (Gaming, Education, Clean Energy, Fintech, Government, or Other), and accept the Terms of Service and Privacy Policy.
+
+In short: if a stranger could find your plugin, pick a pricing plan, click Deploy, and get a live working instance, then it’s marketplace-ready.
+
+How to Submit Your Marketplace Solution
+1.   Sign in to the Marketplace at marketplace.africastalking.dev (create an account first if needed).
+
+2.   Build and push your image. Containerize your app and push it to the AT-Container registry using the credentials and instructions in the submission form.
+
+3.   From the homepage, click “Create Your Own Plugin.”
+
+4.   Complete the submission form, section by section: container registry credentials; basic plugin info (name, slug, short + long description, logo); technical details (image URL, optional Git repo, database); environment variables (optional); categorization (AT product + industry, at least one); pricing plans (at least one with currency, amount, frequency, description); and accept the Terms of Service and Privacy Policy.
+
+5.   Submit. A confetti animation confirms success; an error toast means something needs fixing (most often a missing logo or required field).
+
+6.   Track approval under “Manage Plugins” in the side menu, where you can view review status, see admin feedback, edit, archive, or publish your plugin.
+
+Agenda (Standard Hackathon)
+1.   Warm-Up: Introductions, form teams where needed, feedback & feature requests.
+
+2.   Building / Hacking: Code in GitHub / GitLab / Bitbucket and deploy via Docker / automated CI. Upon commit, the repository is built and deployed to an accessible web server or the AT Marketplace.
+
+3.   Demonstration & Wrap-Up: Teams present their solutions, followed by feedback and next steps.
+
+4.   Publish on the Marketplace: publish your solution on the Africa’s Talking Marketplace to be considered a winner.
+
+Opportunities
+• Network and innovate on real African problems with production-grade APIs.
+
+• Access our Talent Bench: you can land a job or a gig on the spot.
+
+Submit Your Idea
+All attendees planning to present should complete the Hackathon Idea Submission Form. It is used to reach out to participants later.
+
+Join the Community
+• Slack: join the Africa’s Talking Slack community
+
+• X (Twitter): @AfricasTalking
+
+• Facebook: Africa’s Talking on Facebook
+
+• Instagram: @africastalking
+
+• LinkedIn: Africa’s Talking Ltd
+
+• YouTube: Africa’s Talking channel
+
+• TikTok: @africas_talking
+
+• GitHub: github.com/AfricasTalkingLtd
+
+• Partnerships: email developerexperience@africastalking.com
+
+Africa’s Talking community is language- and framework-agnostic. All developers are welcome to build, learn, and exchange knowledge.
+
+Opportunities
+Network
+
+Innovate
+
+Access to our Talent bench (You can get a job or a gig on the spot)
+
+New to Africa's Talking? Get started here.
+Publish on Africa's Talking Marketplace
+Marketplace: Get Call Back as a Service and Publish your plugin/app for our customer.
+
+Developer Documentation (We welcome feedback)
+
+New to Africa's Talking? Get started here.

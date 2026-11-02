@@ -1,0 +1,42 @@
+{
+  "name": "orim",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "build:video": "remotion render src/remotion/Root.tsx PromoVideo out/promo.mp4",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.13",
+    "@remotion/cli": "^4.0.495",
+    "@remotion/player": "^4.0.495",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/three": "^0.167.1",
+    "africastalking": "^0.8.4",
+    "canvas-confetti": "^1.9.3",
+    "next": "^16.2.4",
+    "pg": "^8.23.1",
+    "react": "^19",
+    "react-dom": "^19",
+    "remotion": "^4.0.495",
+    "server-only": "^0.0.1",
+    "three": "^0.167.1",
+    "zod": "^4.6.7",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/pg": "^8.15.0",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^16.2.4",
+    "typescript": "^5",
+    "vitest": "^4.1.12"
+  }
+}
